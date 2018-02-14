@@ -1,0 +1,8 @@
+{
+  "name": "communityDesign",
+  "app_id": "345dae53",
+  "type": "ionic-angular",
+  "integrations": {
+    "cordova": {}
+  }
+}

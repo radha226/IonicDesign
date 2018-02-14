@@ -1,0 +1,19 @@
+<ion-menu [content]="content1">
+  <ion-header>
+    <ion-toolbar class="sidebar-title" style="min-height: 60px;">
+      <ion-title><img src="../assets/imgs/logo-2.png"></ion-title>
+      <button ion-button secondary menuToggle style="color:#c1bbbb"><ion-icon name="close"></ion-icon></button>
+    </ion-toolbar>
+  </ion-header>
+
+  <ion-content class="sidemnu-content">
+
+    <ion-list class="sidemenu-list">
+      <button menuClose ion-item *ngFor="let p of pages" (click)="openPage(p)">
+        <ion-icon name="{{p.icon}}" style="margin-right:15px;"></ion-icon> {{p.title}}
+      </button>
+    </ion-list>
+  </ion-content>
+
+</ion-menu>
+<ion-nav [root]="rootPage" #content1 swipeBackEnabled="false"></ion-nav>

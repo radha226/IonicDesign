@@ -1,0 +1,26 @@
+.sidemenu-list{
+	background:#39434f;
+	margin-top: 13px;
+}
+.sidemenu-list .item,.sidemnu-content, .sidebar-title > div{
+	background: #343d4a;
+	color:#fff;
+}
+.sidemenu-list .item-inner{
+	border-bottom:0px;
+}
+.item-inner{
+	border-bottom:0px !important;
+}
+.sidemnu-content{
+  box-shadow: 8px 0px #000000;
+  width: 99%;
+}
+.clearfix {
+  overflow: auto;
+}
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}

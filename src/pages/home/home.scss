@@ -1,0 +1,86 @@
+page-home {
+	.clearfix {
+    overflow: auto;
+	}
+	.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+	}
+	.toolbar-title{
+		color: #fff;
+    margin-top: 10px;
+    padding-left: 0px;
+	}
+	.toolbar-background-md{
+		background:#38414e;
+	}
+  .bar-buttons{
+  	color:#fff;
+  	float:left;
+  }
+	.tag-title{
+		margin-top: 2px;
+    display: inline-block;
+  }
+  .header-inner ul{
+  	list-style-type: none;
+    overflow: auto;
+    padding: 0px;
+    white-space: nowrap;
+    margin: 0px;
+    margin-right: 17px;
+    width: 100%;
+  }
+  .header-inner ul li{
+  	color: #fff;
+    margin: 18px 8px 8px 8px;
+    overflow: hidden;
+    display: inline-block;
+  }
+  .header-inner ul li:first-child{
+  	margin-left:0px
+  }
+  .header-inner ul li:last-child{
+  	margin-right:0px
+  }
+  .badge-md {
+    border-radius: 36px;
+    color: #fff;
+    background-color: #ff8731;
+    padding: 2px 6px;
+    font-size: 11px;
+	}
+  .header-inner{
+  	background: #343d4a;
+    margin-top: 9px;
+    padding: 0 15px;
+  }
+  .tags-list{
+  	list-style-type: none;
+    padding: 0px;
+  }
+  .tags-list li{
+  	float: left;
+    background: #ececec;
+    padding: 5px 13px;
+    margin: 5px;
+    color: grey;
+    border-radius: 3px;
+    border: 1px double #e2e1e1;
+  }
+  .scroll-content{
+  	padding: 16px 0px !important;
+  }
+  .divider{
+  	margin-bottom: 30px;
+    background: #ecebeb;
+    height: 15px;
+  }
+  .comments ion-icon{
+  	color: #ff8731;
+  }
+  .comments .button{
+  	color: #424242;
+  }
+}
